@@ -65,13 +65,13 @@
         DEFAULT_LAYER {
             display-name = "Default";
             bindings = <
-&kp Q              &kp W       &kp E        &kp R          &kp T                                                  &kp Y      &kp U            &kp I        &kp O       &kp P
-&kp A              &kp S       &kp D        &kp F          &kp G                                                  &kp H      &kp J            &kp K        &kp L       &kp SEMICOLON
-&mt2 LEFT_SHIFT Z  &kp X       &kp C        &kp V          &kp B                                                  &kp N      &kp M            &kp COMMA    &kp PERIOD  &kp RS(SLASH)
-&kp LC(TAB)        &kp LALT    &kp LWIN     &lt 2 SPACE    &kp SPACE  &mt LCTRL LANGUAGE_1  &mt RCTRL LANGUAGE_2  &kp ENTER  &lt 1 BACKSPACE  &kp RWIN     &kp RALT    &mt RCTRL TAB
-                   &kp ESCAPE  &kp END      &kp PAGE_DOWN  &kp HOME   &kp PAGE_UP           &kp UP                &kp LEFT   &kp DOWN         &kp RIGHT    &none
-&mkp LCLK          &mkp RCLK   &mkp MCLK                                                                                                      &mkp LCLK    &mkp RCLK   &mkp MCLK
-&mkp MB4           &mkp MB5    &kp LG(TAB)  &kp LG(D)      &kp LCTRL                                              &mkp MB4   &mkp MB5         &kp LG(TAB)  &kp LG(D)   &kp LCTRL
+&kp Q              &kp W      &kp E         &kp R         &kp T                                                     &kp Y         &kp U            &kp I          &kp O       &kp P
+&kp A              &kp S      &kp D         &kp F         &kp G                                                     &kp H         &kp J            &kp K          &kp L       &kp SEMICOLON
+&mt2 LEFT_SHIFT Z  &kp X      &kp C         &kp V         &kp B                                                     &kp N         &kp M            &kp COMMA      &kp PERIOD  &kp RS(SLASH)
+&kp LC(TAB)        &kp LALT   &kp LWIN      &lt 2 SPACE   &kp SPACE     &mt LCTRL LANGUAGE_1  &mt RCTRL LANGUAGE_2  &kp ENTER     &lt 1 BACKSPACE  &kp RWIN       &kp RALT    &mt RCTRL TAB
+                   &none      &kp RG(RBKT)  &kp C_VOL_DN  &kp LG(LBKT)  &kp C_VOL_UP          &kp LC(UP)            &kp LC(LEFT)  &kp LC(DOWN)     &kp RC(RIGHT)  &none
+&mkp LCLK          &mkp RCLK  &mkp MCLK                                                                                                            &mkp LCLK      &mkp RCLK   &mkp MCLK
+&mkp MB4           &mkp MB5   &kp LG(TAB)   &kp LG(D)     &kp LCTRL                                                 &mkp MB4      &mkp MB5         &kp LG(TAB)    &kp LG(D)   &kp LCTRL
             >;
         };
 
