@@ -68,7 +68,7 @@
 &kp Q          &kp W      &kp E        &kp R        &kp T                                                     &kp Y            &kp U            &kp I        &kp O       &kp P
 &kp A          &kp S      &kp D        &kp F        &kp G                                                     &kp H            &kp J            &kp K        &kp L       &kp MINUS
 &kp Z          &kp X      &kp C        &kp V        &kp B                                                     &kp N            &kp M            &kp COMMA    &kp PERIOD  &kp SLASH
-&mt LSHFT TAB  &kp LALT   &kp LWIN     &lt 2 SPACE  &lt 1 DELETE  &mt LCTRL LANGUAGE_2  &mt RCTRL LANGUAGE_1  &lt 1 ENTER      &lt 2 BACKSPACE  &kp RWIN     &kp RALT    &mt RSHFT TAB
+&mt LSHFT TAB  &kp LALT   &kp LWIN     &lt 2 SPACE  &lt 1 ESCAPE  &mt LCTRL LANGUAGE_2  &mt RCTRL LANGUAGE_1  &lt 1 ENTER      &lt 2 BACKSPACE  &kp RWIN     &kp RALT    &mt RSHFT TAB
                &mo 4      &kp RIGHT    &kp DOWN     &kp LEFT      &kp UP                &kp HOME              &kp LC(LS(TAB))  &kp END          &kp LC(TAB)  &mo 4
 &mkp LCLK      &mkp RCLK  &mkp MCLK                                                                                                             &mkp LCLK    &mkp RCLK   &mkp MCLK
 &mkp MB4       &mkp MB5   &kp LG(TAB)  &kp LG(D)    &kp LCTRL                                                 &mkp MB4         &mkp MB5         &kp LG(TAB)  &kp LG(D)   &kp LCTRL
