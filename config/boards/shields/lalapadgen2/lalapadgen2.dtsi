@@ -163,7 +163,8 @@
                            <&zip_scroll_scaler 1 12>,
                            <&zip_dynamic_xy_scaler>,
                            <&zip_dynamic_scroll_scaler>,
-                           <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>;
+                           <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>,
+                           <&zip_temp_layer 5 250>;
         lowspeedmode {
             layers = <1>,<2>;
             input-processors =  <&trackpad_key_behaviors_R>,
@@ -171,7 +172,8 @@
                                 <&zip_scroll_scaler 1 40>,
                                 <&zip_dynamic_xy_scaler>,
                                 <&zip_dynamic_scroll_scaler>,
-                                <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>;
+                                <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>,
+                                <&zip_temp_layer 5 250>;
         };
     };
     trackpad_listener_L: trackpad_listener_L {
@@ -183,7 +185,8 @@
                            <&zip_scroll_scaler 1 12>,
                            <&zip_dynamic_xy_scaler>,
                            <&zip_dynamic_scroll_scaler>,
-                           <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>;
+                           <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>,
+                           <&zip_temp_layer 5 250>;
         lowspeedmode {
             layers = <1>,<2>;
             input-processors =  <&trackpad_key_behaviors_L>,
@@ -191,7 +194,8 @@
                                 <&zip_scroll_scaler 1 40>,
                                 <&zip_dynamic_xy_scaler>,
                                 <&zip_dynamic_scroll_scaler>,
-                                <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>;
+                                <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>,
+                                <&zip_temp_layer 5 250>;
         };
     };
 
