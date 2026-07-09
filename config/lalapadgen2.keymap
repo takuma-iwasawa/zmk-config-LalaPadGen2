@@ -79,13 +79,13 @@
         SECONDARY_LAYER {
             display-name = "secondary_layer";
             bindings = <
-&trans            &kp NUMBER_7       &kp NUMBER_8   &kp NUMBER_9  &trans                                     &kp KP_NUMLOCK    &kp F1             &kp F2           &kp F3             &kp F4
-&trans            &kp NUMBER_4       &kp NUMBER_5   &kp NUMBER_6  &trans                                     &trans            &kp F5             &kp F6           &kp F7             &kp F8
-&kp NUMBER_0      &kp NUMBER_1       &kp NUMBER_2   &kp NUMBER_3  &trans                                     &trans            &kp F9             &kp F10          &kp F11            &kp F12
-&trans            &trans             &trans         &trans        &trans        &trans      &trans           &trans            &trans             &kp KP_NUMBER_0  &kp KP_DOT         &kp KP_DIVIDE
-                  &kp LA(LC(ENTER))  &kp LC(RIGHT)  &kp LC(DOWN)  &kp LC(LEFT)  &kp LC(UP)  &kp C_VOLUME_UP  &kp PAGE_UP       &kp C_VOLUME_DOWN  &kp PAGE_DOWN    &kp LC(LA(ENTER))
-&trans            &trans             &trans                                                                                                       &trans           &trans             &trans
-&kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans         &trans        &trans                                     &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans           &trans             &trans
+&trans            &kp NUMBER_7       &kp NUMBER_8   &kp NUMBER_9  &trans                                     &kp KP_NUMLOCK    &kp F1             &kp F2           &kp F3      &kp F4
+&trans            &kp NUMBER_4       &kp NUMBER_5   &kp NUMBER_6  &trans                                     &kp CAPSLOCK      &kp F5             &kp F6           &kp F7      &kp F8
+&kp NUMBER_0      &kp NUMBER_1       &kp NUMBER_2   &kp NUMBER_3  &trans                                     &trans            &kp F9             &kp F10          &kp F11     &kp F12
+&trans            &trans             &trans         &trans        &trans        &trans      &trans           &trans            &trans             &kp KP_NUMBER_0  &kp KP_DOT  &kp KP_DIVIDE
+                  &kp LA(LC(ENTER))  &kp LC(RIGHT)  &kp LC(DOWN)  &kp LC(LEFT)  &kp LC(UP)  &kp C_VOLUME_UP  &kp C_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_NEXT       &kp K_MUTE
+&trans            &trans             &trans                                                                                                       &trans           &trans      &trans
+&kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans         &trans        &trans                                     &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans           &trans      &trans
             >;
         };
 
